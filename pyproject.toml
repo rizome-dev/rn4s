@@ -1,0 +1,17 @@
+[project]
+name = "rn4s"
+version = "0.1.0"
+description = "Advanced agent framework with reasoning and evaluation"
+authors = [
+    {name = "samjtro", email = "hi@samjtro.com"},
+]
+dependencies = ["smolagents>=1.13.0", "dspy>=2.6.17", "huggingface-hub>=0.30.2", "firecrawl-py>=1.16.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "GPL-2.0-only"}
+
+[project.optional-dependencies]
+litellm = ["litellm>=1.28.0"]
+
+[tool.pdm]
+distribution = false
