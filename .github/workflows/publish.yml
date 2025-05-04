@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/rizome/rn4s
+      url: https://pypi.org/p/samjtro/rn4s
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
@@ -102,7 +102,7 @@ jobs:
 
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/rizome/rn4s
+      url: https://test.pypi.org/p/samjtro/rn4s
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
